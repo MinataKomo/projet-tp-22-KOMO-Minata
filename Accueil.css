@@ -1,0 +1,137 @@
+.section{
+    display: flex;
+    /* width: 100%; */
+    /* height: auto; */
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px rgb(100, 100, 0);
+}
+.order{
+background-color: rgb(218, 134, 119);
+/* width: 500px; */
+height: 400px;
+}
+.order h1{
+    font-size: 60px;
+}
+.order p{
+    font-size: 30px;
+}
+.section .img{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+}
+.img img{
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+/* section2 */
+.card{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* flex-flow: wrap; */
+    /* width: 100%; */
+    background-color: aquamarine;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.card .no{
+    /* background-color: bisque; */
+    height: 330px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(27, 27, 26);
+    padding: 2px;
+
+}
+.no a{
+    font-size: 40px;
+   color: #000;
+    text-decoration: solid;
+}
+.no p{
+    font-size: 30px;
+}
+.h1 h1{
+    text-align: center;
+    font-size: 60px;
+}
+/* section3 */
+.cont{
+    margin-bottom: 100px;
+}
+.cont h1{
+    text-align: center;
+    font-size: 60px;
+}
+.continent{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.continent img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+.continent .inde{
+    border: 1px solid rgb(189, 162, 157);
+    width: 260px;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+.continent .inde h1{
+   font-size: 40px;
+    
+}
+.continent .inde p{
+    font-size: 20px;
+     
+ }
+ .continent .soudan{
+    border: 1px solid rgb(189, 162, 157);
+    width: 260px;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+.continent .soudan h1{
+    font-size: 40px;
+     
+ }
+ .continent .section p{
+    font-size: 20px;
+     
+ }
+
+.continent .afrique{
+    border: 1px solid rgb(189, 162, 157);
+    width: 260px;
+    padding: 5px;
+    
+
+}
+.continent .afrique h1{
+    font-size: 40px;
+     
+ }
+ .continent .afrique p{
+    font-size: 20px;
+     
+ }
+ /* section4 */
+ .methode h1{
+    text-align: center;
+    font-size: 60px;
+ }
+ .recolte{
+    display: flex;
+ }
