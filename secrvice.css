@@ -55,4 +55,241 @@
     .se img{
         width: 100%;
     }
+    .pre{
+       flex-flow: wrap;
+    }
+}
+/* ------presentation---------- */
+.present{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 5%;
+}
+.present h1{
+    text-align: center;
+    padding: 5%;
+    font-size: 36px;
+   
+}
+.pre{
+    display: flex;
+    
+}
+.entre img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.entre{
+    margin-bottom: 3%;
+    margin-right: 50px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(179, 228, 147);
+}
+.entr{
+    text-align: center;
+    background: rgb(173, 231, 79);
+    /* width: 40%; */
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+}
+
+/* -----------------avantage----------- */
+.avantages h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 2%;
+}
+.avantages-col{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    padding: 3%;
+}
+.row{
+    background: rgb(230, 151, 151);
+    /* margin-right: 2%; */
+    border-radius: 10%;
+    width: 30%;
+   
+}
+.row:hover{
+    box-shadow: 0 0 20px 0px rgba(82, 13, 243, 0.7);
+}
+.row h3{
+    font-size: 25px;
+}
+.row p{
+    font-size: 19px;
+}
+/* -+-------------------aide---------------- */
+.aider{
+    background-color: rgb(185, 245, 210);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.aider h1{
+    text-align: center;
+    font-size: 36px;
+}
+.aide{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    margin: auto;
+    padding: 5%;
+}
+.ai {
+    width: 80%;
+    border-radius: 10px;
+    padding: 5%;
+    height: 350px;
+    border: 2px dashed black;
+}
+.ai h4{
+    font-size: 25px;
+}
+.ai p{
+    font-size: 20px;
+}
+.ai img{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 300px) {
+    .entr img{
+        width: 100%;
+    }
+    .entr{
+        margin: 0;
+    }
+    .avantages-col{
+        text-align: center;
+        flex-direction: column;
+    }
+    .row{
+        width: 100%;
+    }
+    .aider{
+        margin: 0;
+    }
+    .aide{
+        flex-direction: column;
+    }
+    .ai{
+        /* width: 100%; */
+        height: 100%;
+    }
+    .realise{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: aqua;
+        width: 100%;
+        padding: 0;
+    }
+    .rea{
+        margin-top: 0px;
+        width: 100%;
+        background-color: azure;
+        color: beige;
+    }
+    .reat{
+        margin: 10px;
+    }
+    .engage{
+        flex-direction: column;
+    }
+}
+/* ------------------realisation------------- */
+
+.realiser{
+    padding: 5%;
+}
+.realiser h1{
+    text-align: center;
+    font-size: 36px;
+    padding: 2%;
+}
+.realise{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.rea{
+    margin-top: 200px;
+    background: rgb(223, 178, 223);
+    margin-right: 5%;
+    
+    box-sizing: border-box;
+}
+.rea p{
+    font-size: 20px;
+    padding: 2%;
+}
+.rea h4{
+    font-size: 25px;
+    padding: 2%;
+}
+.rea:hover{
+    box-shadow: 0 0 20px 0px black;
+    background: rgb(190, 182, 236);
+    transition: 2s;
+}
+.reat:hover{
+    box-shadow: 0 0 20px 0px tomato;
+    background: rgb(212, 177, 195);
+    transition: 2s;
+}
+.reatt:hover{
+    box-shadow: 0 0 20px 0px crimson;
+    background: rgb(169, 207, 157);
+    transition: 2s;
+}
+.reat{
+   
+    background: rgb(149, 204, 221);
+    margin-right: 5%;
+    height: 200px;
+    box-sizing: border-box;
+}
+.reat p{
+    font-size: 20px;
+    padding: 2%;
+}
+.reat h4{
+    font-size: 25px;
+    padding: 2%;
+}
+.reatt{
+    margin-top: 200px;
+    background: rgb(201, 228, 129);
+    margin-right: 5%;
+    
+    box-sizing: border-box;
+}
+.reatt p{
+    font-size: 20px;
+    padding: 2%;
+}
+.reatt h4{
+    font-size: 25px;
+    padding: 2%;
+}
+/* ------------engagement------------ */
+.engagement h1{
+    text-align: center;
+    font-size: 36px;
+    padding: 2%;
+}
+.engage{
+    display: flex;
+    padding: 5%;
 }
