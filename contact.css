@@ -1,0 +1,27 @@
+.contact{
+    /* margin: auto;
+    background-color: aquamarine;
+    width: 8%; */
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(223, 217, 217, 0.7),rgba(0,0,0,0.7)),url(téléchargement\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(16, 252, 48);
+}
+span{
+    display: flex;
+    justify-content: center;
+    
+    
+}
