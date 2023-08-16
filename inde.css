@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images\ \(1\).jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(iages/images\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -232,6 +232,91 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+/* defis------------ */
+.defies h1{
+    text-align: center;
+    font-size: 36px;
+}
+.defis{
+    
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 5%; */
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    
+    
+}
+@media screen and (max-width: 700px) {
+    .defis{
+        flex-direction: column;
+    }
+    .defis h3{
+        text-align: center;
+    }
+    .usage{
+        flex-direction: column;
+    }
+    .opport{
+        flex-direction: column;
+    }
+    .opp{
+        width: 200px;
+    }
+}
+/* usages----------- */
+.usage{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 5%; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.u h1{
+    text-align: center;
+    font-size: 36px;
+}
+.uge{
+    flex-basis: 31%;
+    background: #c9a3d8;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box
+}
+.uge:hover{
+    box-shadow: 0 0 30px 0px rgba(63, 20, 219, 0.863);
+}
+/* opportiniter--------------- */
+.opport{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.opportu h1{
+    text-align: center;
+    font-size: 36px;
+}
+.opp{
+    background: rgb(197, 139, 170);
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.opp:hover{
+    background: #f44336;
+    color: white;
+    transition: 5s;
 }
 /* -----------------testimonials */
 
